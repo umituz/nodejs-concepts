@@ -1,0 +1,32 @@
+html
+  head
+    title Hello Pug
+  body
+    - const name = "Ümit";
+    - const city = "Gaziantep in Turkey";
+    =city
+    br
+    | #{ name.toUpperCase() }
+    hr
+    =job
+    hr
+    // We can control using if else statement
+    - const number = 23;
+    if !number
+      | There is not a number
+    else if number === 22
+      | Number is 22
+    else
+      | Number is not 22
+    hr
+    span(style="color:blue; font-size:55px")
+      | Hello Pug! I am #{ name } #{ surname }
+    // comment zone
+    //div(id="form") Form
+    hr
+    | Each Loop :
+    ul
+      each value,index in [1,2,3,4,5,6,7,8,9]
+        li=index + ". index for " + value + ". value"
+    hr
+    include footer.pug

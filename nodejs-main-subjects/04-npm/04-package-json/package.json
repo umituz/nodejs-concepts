@@ -1,0 +1,22 @@
+{
+  "name": "umut-package",
+  "version": "1.0.0",
+  "description": "Description about umut",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "umut-who"
+  ],
+  "author": "Umut UZ",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "nodemailer": "^4.6.8",
+    "slugify": "^1.3.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

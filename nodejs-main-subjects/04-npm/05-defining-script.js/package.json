@@ -1,0 +1,14 @@
+{
+  "name": "05-defining-script.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" :  "node app.js",
+    "sayHello" : "echo 'my name is umut'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
