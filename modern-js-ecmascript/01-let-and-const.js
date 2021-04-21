@@ -8,10 +8,4 @@ let object = {
   key2:2,
 }
 object.key3 = 3;
-object = {
-  a = "a",
-}
-
-
-
 console.log(object);
